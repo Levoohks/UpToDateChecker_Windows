@@ -16,11 +16,11 @@ void check_windows_version()
 
     if (osvi.dwMajorVersion > 6 || (osvi.dwMajorVersion == 6 && osvi.dwMinorVersion >= 2))
     {
-        cout << "Your Windows version is up to date" << endl;
+        cout << "[+] Your Windows version is up to date" << endl;
     }
     else
     {
-        cout << "Your indows version is not up to date" << endl;
+        cout << "[-] Your indows version is not up to date" << endl;
     }
 }
 
